@@ -30,9 +30,10 @@ cask "benchpod" do
   livecheck do
     skip "Auto-generated on release."
   end
+
   depends_on formula: [
-      "dfu-util",
-    ]
+    "dfu-util",
+  ]
 
   binary "benchpod"
 
