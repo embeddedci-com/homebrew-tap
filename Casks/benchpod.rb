@@ -8,25 +8,25 @@ cask "benchpod" do
     end
   end
 
-  version "0.1.10"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "cd9b1f79b43cdc5602dcad7e5f3f6432308fb9a5b38154c458f0a8aebf561c95"
+      sha256 "e349e4d32820f97539a75ab8a8708f44aacfb19302865c436f34812f4f005157"
       url "https://github.com/embeddedci-com/benchpod-cli/releases/download/v#{version}/benchpod_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "949bc38ed1024eab7c2b36a80bb1ba751b54b95e14f31bd752feb00a629ca31c"
+      sha256 "2e4a2ed9c0cf4b0c4ddd30be5dc1b02fbca8afb7a3bdd1c2d285478b73f7ae4b"
       url "https://github.com/embeddedci-com/benchpod-cli/releases/download/v#{version}/benchpod_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f54c8039f8bb97aae44bc1ad42281940f8e035b6dccc40a57cd1990699e3558a"
+      sha256 "51c5bf2e7dfa9fb8480fcc15f71580c2e1f2e20ee406b2cb66676f534d9d0cbc"
       url "https://github.com/embeddedci-com/benchpod-cli/releases/download/v#{version}/benchpod_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d75e1520609d91d27261d293219ecd079d5d428d0c4655fd6d2db61e4b937706"
+      sha256 "a7a71f58d344e6c128f20a3e8208d1d05376362f37d89b8ae17bf3379fd2fe17"
       url "https://github.com/embeddedci-com/benchpod-cli/releases/download/v#{version}/benchpod_Linux_x86_64.tar.gz"
     end
   end
