@@ -3,9 +3,9 @@
 cask "emi-analyzer" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "0556e151400dfd74ae669b17ccb21735a5396c5d89b750ed9f65cfc3c51d415c",
-         intel: "4b769198342637bcdd81abaecc03baba65288ce36daaa139b35b7148c2f5e0d8"
+  version "0.4.0"
+  sha256 arm:   "a5875f21ff129e55516343eeb57ecca1396a4be51c8633e070081dd685d0ebea",
+         intel: "d6f230278d87b412096b1763785c9d6572ed890ef81a610dd901e68c43da998c"
 
   url "https://github.com/embeddedci-com/emi-analyzer/releases/download/v#{version}/EMI.Analyzer_#{version}_#{arch}.dmg"
   name "EMI Analyzer"
