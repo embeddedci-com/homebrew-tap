@@ -5,8 +5,10 @@ Homebrew tap for [EmbeddedCI](https://www.embeddedci.com) tools.
 ## Install
 
 ```sh
-brew install --cask embeddedci-com/tap/benchpod        # BenchPod CLI
-brew install --cask embeddedci-com/tap/emi-analyzer    # EMI Analyzer desktop app
+brew trust embeddedci-com/tap
+brew install --cask embeddedci-com/tap/benchpod           # BenchPod CLI
+brew install --cask embeddedci-com/tap/emi-analyzer       # EMI Analyzer desktop app
+brew install --cask embeddedci-com/tap/benchpod-desktop   # BenchPod Desktop app
 ```
 
 `brew upgrade --cask <name>` picks up new releases.
