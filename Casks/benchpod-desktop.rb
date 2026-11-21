@@ -3,9 +3,9 @@
 cask "benchpod-desktop" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.3"
-  sha256 arm:   "d81dab2baf5cc501f5c9edca85fd8a87b7af3ed6b6d6ee4298e28169803a0140",
-         intel: "d0b3b39e518ed00f6fc042c5fa8b1f33030175923bb69863b7329c57c492681a"
+  version "0.2.4"
+  sha256 arm:   "19a5283e9dfccd5a16f81fde657aaffcc8a0950574cfd311144a0f65a7b73062",
+         intel: "44c88e789991e6b33e3fe48e2913f496aae1ed11a0b10234ed61bc848b9e96a0"
 
   url "https://github.com/embeddedci-com/benchpod-desktop/releases/download/v#{version}/BenchPod.Desktop_#{version}_#{arch}.dmg"
   name "BenchPod Desktop"
